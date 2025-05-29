@@ -10,11 +10,6 @@ export const metadata = {
 	description: "Personal website and portfolio",
 };
 
-const robotoFont = Roboto_Mono({
-	subsets: ["latin"],
-	weight: ["400", "700"],
-	variable: "--font-roboto-mono",
-});
 
 export default function RootLayout({ children }: { children: ReactNode }) {
 	return (

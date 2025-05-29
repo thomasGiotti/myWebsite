@@ -1,7 +1,7 @@
 "use client";
 
 import { jetBrainsMono, sora } from "../utils/fonts";
-import { FaReact, FaMobileAlt, FaServer, FaJava } from "react-icons/fa";
+import { FaReact, FaMobileAlt, FaServer } from "react-icons/fa";
 import CodeEditorBackground from "../components/CodeEditorBackground";
 
 const expertiseItems = [
