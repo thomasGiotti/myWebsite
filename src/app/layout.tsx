@@ -1,4 +1,5 @@
-import { Roboto_Mono } from "next/font/google";
+"use client";
+
 import "./styles/globals.css";
 import type { ReactNode } from "react";
 import NavBar from "./components/NavBar";
