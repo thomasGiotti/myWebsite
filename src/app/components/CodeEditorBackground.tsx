@@ -1,7 +1,5 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-
 export default function CodeEditorPattern() {
 	return (
 		<div className="absolute bottom-12 left-1/2 -translate-x-1/2 z-0 pointer-events-none">

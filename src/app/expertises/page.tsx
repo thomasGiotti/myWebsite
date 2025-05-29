@@ -2,7 +2,6 @@
 
 import { jetBrainsMono, sora } from "../utils/fonts";
 import { FaReact, FaMobileAlt, FaServer, FaJava } from "react-icons/fa";
-import { SiFlutter, SiDotnet, SiTypescript, SiAngular } from "react-icons/si";
 import CodeEditorBackground from "../components/CodeEditorBackground";
 
 const expertiseItems = [

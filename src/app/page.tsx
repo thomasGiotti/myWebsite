@@ -1,18 +1,13 @@
 "use client";
 
-import { JetBrains_Mono } from "next/font/google";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { ChevronDown } from "lucide-react"; // icône propre
 import ExpertisesPage from "./expertises/page";
 import { jetBrainsMono } from "./utils/fonts";
 import ExperiencePage from "./experiences/page";
 import ContactPage from "./contact/page";
 
-const jetbrainsMono = JetBrains_Mono({
-	weight: ["400", "700"],
-	subsets: ["latin"],
-});
+
 
 export default function Home() {
 	return (
