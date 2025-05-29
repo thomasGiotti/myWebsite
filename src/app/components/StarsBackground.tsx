@@ -13,10 +13,18 @@ type Star = {
 
 export default function StarsBackground() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
-  const mousePos = useRef({ x: window.innerWidth / 2, y: window.innerHeight / 2 });
-  const smoothedMouse = useRef({ x: window.innerWidth / 2, y: window.innerHeight / 2 });
+  const mousePos = useRef({ x: 0, y: 0 });
+  const smoothedMouse = useRef({ x: 0, y: 0 });
 
   useEffect(() => {
+    mousePos.current = {
+      x: window.innerWidth / 2,
+      y: window.innerHeight / 2,
+    };
+    smoothedMouse.current = {
+      x: window.innerWidth / 2,
+      y: window.innerHeight / 2,
+    };
     const handleMouseMove = (e: MouseEvent) => {
       mousePos.current = { x: e.clientX, y: e.clientY };
     };
