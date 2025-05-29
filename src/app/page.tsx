@@ -2,10 +2,10 @@
 
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react"; // icône propre
-import ExpertisesPage from "./expertises/page";
+import ExpertisesPage from "./pages/expertises/page";
 import { jetBrainsMono } from "./utils/fonts";
-import ExperiencePage from "./experiences/page";
-import ContactPage from "./contact/page";
+import ExperiencePage from "./pages/experiences/page";
+import ContactPage from "./pages/contact/page";
 
 
 
